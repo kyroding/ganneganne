@@ -1,0 +1,9 @@
+{
+    "name": "ganneganne",
+    "description": "screw around",
+    "version": "0.0.1",
+    "dependencies": {
+		"express": "*",
+		"ejs": "*"
+	}
+}
