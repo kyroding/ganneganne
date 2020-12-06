@@ -3,7 +3,12 @@
     src: url('./fonts/BadScript-Regular.ttf');
 }
 
-
 html { 
     font-family: badscriptregular;
+    text-align: center;
+    margin-top: 30px;
 } 
+
+h1 {
+    font-size: 80px;
+}
