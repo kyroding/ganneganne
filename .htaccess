@@ -1,5 +1,3 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} !=""
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteCond %{HTTPS}s ^on(s)|
-RewriteRule ^ http%1://www.ganneganne.de%{REQUEST_URI} [R=301,L]
+ RewriteEngine on
+ RewriteCond %{HTTP:X-Forwarded-Proto} !https
+ RewriteRule ^.*$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
