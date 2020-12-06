@@ -1,12 +1,11 @@
-@font-face {
-    font-family: 'badscriptregular';
-    src: url('./fonts/BadScript-Regular.ttf');
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 
 html { 
-    font-family: badscriptregular;
+    font-family: 'Merienda';
     text-align: center;
     margin-top: 30px;
+    font-size: 14px;
 } 
 
 h1 {
