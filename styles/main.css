@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'badscriptregular';
+    src: url('./fonts/BadScript-Regular.ttf');
+}
+
+
+html { 
+    font-family: badscriptregular;
+} 
