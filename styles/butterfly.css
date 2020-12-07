@@ -1,0 +1,43 @@
+
+schmetterling {
+    width: 105px;
+    height: 105px;
+    position: relative;
+}
+
+schmetterling {
+    width: 105px;
+    height: 92px;
+    position: relative;
+    display: inline-block;
+}
+
+schmetterling .body {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+
+schmetterling .wing {
+    position: absolute;
+    width: 50px;
+    height: 92px;
+}
+
+schmetterling .wing.closed {
+    width: 30px;
+}
+
+schmetterling .wing.left {
+    right: 55px;
+}
+
+schmetterling .wing.right {
+    left: 55px;
+}
+
+schmetterling .feelers {
+    position: absolute;
+    left: 41px;
+    top: 18px;
+}
