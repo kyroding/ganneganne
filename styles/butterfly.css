@@ -1,14 +1,8 @@
 
 schmetterling {
     width: 105px;
-    height: 105px;
-    position: relative;
-}
-
-schmetterling {
-    width: 105px;
     height: 92px;
-    position: relative;
+    position: absolute;
     display: inline-block;
 }
 
