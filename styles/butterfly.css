@@ -1,36 +1,35 @@
 
-schmetterling {
+.schmetterling {
     width: 105px;
     height: 92px;
     position: absolute;
-    display: inline-block;
 }
 
-schmetterling .body {
+.schmetterling .body {
     position: absolute;
     left: 50px;
     top: 40px;
 }
 
-schmetterling .wing {
+.schmetterling .wing {
     position: absolute;
     width: 50px;
     height: 92px;
 }
 
-schmetterling .wing.closed {
+.schmetterling .wing.closed {
     width: 30px;
 }
 
-schmetterling .wing.left {
+.schmetterling .wing.left {
     right: 55px;
 }
 
-schmetterling .wing.right {
+.schmetterling .wing.right {
     left: 55px;
 }
 
-schmetterling .feelers {
+.schmetterling .feelers {
     position: absolute;
     left: 41px;
     top: 18px;
